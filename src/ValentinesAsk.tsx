@@ -31,6 +31,8 @@ function ValentinesAsk() {
     navigate("/yes");
   };
 
+  const gifURL = "https://media1.tenor.com/m/Do2tfm6klgQAAAAd/cat-kitten.gif";
+
   return (
     <>
       <h1 style={{ textAlign: "center" }}>will you be my valentine?</h1>
@@ -49,6 +51,7 @@ function ValentinesAsk() {
           no 🥺
         </button>
       </div>
+      <img src={gifURL} alt="" style={{ display: "none" }} />
     </>
   );
 }
