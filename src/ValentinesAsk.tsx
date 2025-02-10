@@ -44,6 +44,7 @@ function ValentinesAsk() {
         >
           yes 😏
         </button>
+        <br/>
         <button
           onClick={handleNoClick}
           style={{ fontSize: noSize, margin: "10px" }}

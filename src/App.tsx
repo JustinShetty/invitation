@@ -1,11 +1,11 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import ValentinesAsk from "./ValentinesAsk";
 import YesPage from "./YesPage.tsx";
 
 function App() {
   return (
-    <Router basename="/invitation">
+    <Router>
       <Routes>
         <Route path="/" element={<ValentinesAsk />} />
         <Route path="/yes" element={<YesPage />} />
