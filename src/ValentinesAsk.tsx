@@ -38,15 +38,15 @@ function ValentinesAsk() {
         <button
           onClick={handleYesClick}
           className={shake ? "shake" : ""}
-          style={{ fontSize: yesSize, marginRight: "20px" }}
+          style={{ fontSize: yesSize, margin: "10px" }}
         >
-          yes
+          yes 😏
         </button>
         <button
           onClick={handleNoClick}
-          style={{ fontSize: noSize }}
+          style={{ fontSize: noSize, margin: "10px" }}
         >
-          no
+          no 🥺
         </button>
       </div>
     </>
